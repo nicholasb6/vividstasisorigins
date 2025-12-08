@@ -29,7 +29,7 @@
 "type": "origins:modify_projectile_damage",
 "modifier": {
     "operation": "addition",
-    "value": 4,
+    "value": 1,
     "name": "Increased damage"
   },
   "bientity_condition": {
