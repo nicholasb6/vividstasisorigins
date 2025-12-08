@@ -13,7 +13,7 @@ This is an Origins addon that adds new origins based on characters from the game
 ### Dawn:
 - Freezeframe - Freeze entities around you for 4 seconds. (Primary)
 - Into Another Cycle - Full heal, but gain Weakness I for 10 seconds. (Secondary)
-- Gun - If holding an arrow, consume the arrow and fire it in the direction you're  looking. (Right click)
+- Gun - If holding an arrow, consume the arrow and fire it in the direction you're  looking. (Use Item/Place Block)
 - More ranged damage/Less melee damage - You deal 35% more ranged damage, but 25% less melee damage. (Passive)
 - An Endless Duel - Deal more damage to people using the Tsuki origin. (Passive)
  
