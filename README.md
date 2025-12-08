@@ -1,5 +1,5 @@
 # vivid/stasis Origins
-**This requires the Origins mod, which you can get from [here](https://modrinth.com/mod/origins)!**
+**This requires the Origins mod, which you can get from [here](https://modrinth.com/mod/origins), as well as the [Origins Extra Keybinds mod](https://modrinth.com/mod/origins-extra-keybinds-fabric).**
 
 This is an Origins addon that adds new origins based on characters from the game vivid/stasis! Currently, there are 2 new origins added, those being Tsuki and Dawn.
 ## Powers
