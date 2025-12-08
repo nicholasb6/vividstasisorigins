@@ -18,7 +18,7 @@
             "continuous": true
         },
         "type": "origins:active_self",
-        "cooldown":15,
+        "cooldown":20,
         "hud_render": {
             "should_render": true,
             "sprite_location": "origins:textures/gui/resource_bar.png",
@@ -30,7 +30,7 @@
                 {
                     "type": "origins:fire_projectile",
                     "entity_type": "minecraft:arrow",
-                    "speed": 2,
+                    "speed": 3,
                     "divergence": 0,
                     "count": 1
                 },

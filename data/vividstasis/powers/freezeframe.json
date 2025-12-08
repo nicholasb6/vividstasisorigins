@@ -52,7 +52,7 @@
               },
               {
                 "effect": "minecraft:jump_boost",
-                "duration": 20,
+                "duration": 80,
                 "amplifier": 128,
                 "show_particles": true,
                 "show_icon": true
