@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "vividstasis:cycle",
+    "vividstasis:freezeframe",
+    "vividstasis:gun",
+    "vividstasis:melee",
+    "vividstasis:endless_duel_dawn",
+    "vividstasis:ranged"
+  ],
+  "icon": "minecraft:feather",
+  "impact": 2,
+  "name": "Dawn",
+  "description": "persistent fuck"
+}

@@ -1,0 +1,47 @@
+{
+  "type": "origins:active_self",
+  "name": "Teleport",
+  "description": "Teleport anywhere within a 16 block radius.",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:raycast",
+        "distance": 16,
+        "block": true,
+        "entity": false,
+        "block_action": {
+          "type": "apoli:execute_command",
+          "command": "summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Marker:1b,Tags:[\"tp_mark\"]}"
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "tp @s @e[type=armor_stand,tag=tp_mark,limit=1,sort=nearest]"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "kill @e[type=armor_stand,tag=tp_mark]"
+      }
+    ]
+  },
+
+  "key": {
+    "key": "key.origins.quaternary_active",
+    "continuous": false
+  },
+  "badges": [
+    {
+      "type": "origins:keybind",
+      "sprite": "origins:textures/gui/badge/active.png",
+      "text": "Active ability, use with %s!"
+    }
+  ],
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 12,
+    "icon_index": 0,
+    "should_render": true
+  },
+  "cooldown": 800
+}

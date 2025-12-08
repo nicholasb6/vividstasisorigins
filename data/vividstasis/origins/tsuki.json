@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"vividstasis:cycle",
+		"vividstasis:endless_duel_tsuki",
+		"vividstasis:scythe",
+		"vividstasis:teleport",
+		"vividstasis:dash"
+	],
+	"icon": "minecraft:feather",
+	"impact": 2,
+	"name": "Tsuki",
+	"description": "The Worldkeeper does not want burnt pancakes."
+}

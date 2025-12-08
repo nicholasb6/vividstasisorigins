@@ -1,0 +1,19 @@
+{
+    "schemaVersion": 1,
+    "id": "vividstasis",
+    "version": "1.0.0",
+    "name": "vivid/stasis Origins",
+    "description": "vivid/stasis origins for Minecraft!",
+    "authors": [
+        "nicholas"
+    ],
+    "contact": {
+        "homepage": "https://supermyl.net"
+    },
+    "license": "CC0-1.0",
+    "icon": "cover.jpg",
+    "environment": "*",
+    "depends": {
+        "fabric-resource-loader-v0": "*"
+    }
+}

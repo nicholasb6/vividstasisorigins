@@ -1,0 +1,102 @@
+{
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.primary_active"
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:entity.warden.attack_impact ambient @s ~ ~ ~ 1.5 1.9"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:entity.axolotl.hurt ambient @s ~ ~ ~ 1.5 1.9"
+      },
+      {
+        "type": "origins:area_of_effect",
+        "radius": 25,
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:apply_effect",
+            "effects": [
+              {
+                "effect": "minecraft:slowness",
+                "duration": 80,
+                "amplifier": 255,
+                "show_particles": true,
+                "show_icon": true
+              },
+              {
+                "effect": "minecraft:mining_fatigue",
+                "duration": 30,
+                "amplifier": 255,
+                "show_particles": true,
+                "show_icon": true
+              },
+              {
+                "effect": "minecraft:weakness",
+                "duration": 200,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+              },
+              {
+                "effect": "minecraft:glowing",
+                "duration": 200,
+                "amplifier": 255,
+                "show_particles": true,
+                "show_icon": true
+              },
+              {
+                "effect": "minecraft:jump_boost",
+                "duration": 20,
+                "amplifier": 128,
+                "show_particles": true,
+                "show_icon": true
+              }
+            ]
+          }
+        },
+        "bientity_condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:relative_rotation",
+              "actor_rotation": "head",
+              "target_rotation": "head",
+              "comparison": "<=",
+              "compare_to": 0
+            },
+            {
+              "type": "origins:can_see"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "cooldown": 800,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 8,
+    "icon_index": 1,
+    "should_render": true
+  },
+
+  "name": "Freezeframe",
+  "description": "Freeze other mobs/players for a short amount of time.",
+  "badges": [
+    {
+      "type": "origins:keybind",
+      "sprite": "origins:textures/gui/badge/active.png",
+      "text": "Active ability. Use with %s!"
+    },
+    {
+      "type": "origins:sprite",
+      "sprite": "minecraft:textures/mob_effect/darkness.png"
+    }
+  ]
+}

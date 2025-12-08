@@ -1,0 +1,12 @@
+{
+	"type": "origins:multiple",
+	"name": "More ranged damage",
+	"description": "You are more skilled in using ranged weapons. 35% more damage when using a ranged weapon.",
+	"dealmorerangeddamage": {
+		"type": "origins:modify_projectile_damage",
+		"modifier": {
+			"operation": "multiply_base_multiplicative",
+			"value":0.35
+		}
+	}
+}

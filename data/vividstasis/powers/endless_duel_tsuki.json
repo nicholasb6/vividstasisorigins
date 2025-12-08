@@ -1,0 +1,43 @@
+
+{
+  "type": "apoli:multiple",
+  "name": "An Endless Duel",
+"description": "You do extra damage to players using the Dawn origin.",
+"badges": [
+    {
+      "type": "origins:sprite",
+      "sprite": "minecraft:textures/mob_effect/strength.png"
+    }
+  ],
+"meleedamage": {
+"type": "origins:modify_damage_dealt",
+"modifier": {
+    "operation": "addition",
+    "value": 4,
+    "name": "Increased damage"
+  },
+  "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+          "type":"origins:origin",
+        "origin": "vividstasis:dawn",
+        "layer": "origins:origin"
+        }
+}
+},
+"rangeddamage": {
+"type": "origins:modify_projectile_damage",
+"modifier": {
+    "operation": "addition",
+    "value": 4,
+    "name": "Increased damage"
+  },
+  "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+          "type":"origins:origin",
+        "origin": "vividstasis:dawn",
+        "layer": "origins:origin"
+        }
+      }
+}}
