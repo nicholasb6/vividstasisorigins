@@ -3,7 +3,7 @@
     "id": "vividstasis",
     "version": "1.0.0",
     "name": "vivid/stasis Origins",
-    "description": "vivid/stasis origins for Minecraft!",
+    "description": "An Origins addon that adds origins based on characters from vivid/stasis!",
     "authors": [
         "nicholas"
     ],
@@ -11,7 +11,7 @@
         "homepage": "https://supermyl.net"
     },
     "license": "CC0-1.0",
-    "icon": "cover.jpg",
+    "icon": "cover.png",
     "environment": "*",
     "depends": {
         "fabric-resource-loader-v0": "*"

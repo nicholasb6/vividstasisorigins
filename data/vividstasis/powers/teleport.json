@@ -12,16 +12,16 @@
         "entity": false,
         "block_action": {
           "type": "apoli:execute_command",
-          "command": "summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Marker:1b,Tags:[\"tp_mark\"]}"
+          "command": "summon marker ~ ~ ~ {Tags:[\"tp_mark\"]}"
         }
       },
       {
         "type": "origins:execute_command",
-        "command": "tp @s @e[type=armor_stand,tag=tp_mark,limit=1,sort=nearest]"
+        "command": "tp @s @e[type=marker,tag=tp_mark,limit=1,sort=nearest]"
       },
       {
         "type": "origins:execute_command",
-        "command": "kill @e[type=armor_stand,tag=tp_mark]"
+        "command": "kill @e[type=marker,tag=tp_mark]"
       }
     ]
   },
