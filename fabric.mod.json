@@ -10,7 +10,7 @@
     "contact": {
         "homepage": "https://supermyl.net"
     },
-    "license": "CC0-1.0",
+    "license": "MIT",
     "icon": "cover.png",
     "environment": "*",
     "depends": {
