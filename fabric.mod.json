@@ -1,19 +1,27 @@
 {
     "schemaVersion": 1,
     "id": "vividstasis",
-    "version": "1.0.0+1.20.1",
+    "version": "1.0.0+1.20.x",
     "name": "vivid/stasis Origins",
     "description": "An Origins addon that adds origins based on characters from vivid/stasis!",
     "authors": [
         "nicholas"
     ],
+    "contributors": [
+        "RGBDev"
+    ],
     "contact": {
-        "homepage": "https://supermyl.net"
+        "homepage": "https://modrinth.com/mod/vividstasis-origins"
     },
     "license": "MIT",
     "icon": "cover.png",
     "environment": "*",
     "depends": {
-        "fabric-resource-loader-v0": "*"
+        "fabric-resource-loader-v0": "*",
+        "minecraft": "~1.20",
+        "origins": "*",
+        "extrakeybinds": "*"
     }
 }
+
+
