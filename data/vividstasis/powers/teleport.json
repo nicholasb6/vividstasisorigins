@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Teleport",
-  "description": "Teleport anywhere within a 16 block radius.",
+  "description": "Teleport to the block you're looking at within a 16 block radius.",
   "entity_action": {
     "type": "origins:and",
     "actions": [

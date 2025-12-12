@@ -72,7 +72,7 @@
   },
 
   "name": "Freezeframe",
-  "description": "Freeze other mobs/players for a short amount of time.",
+  "description": "Freeze entities around you for 4 seconds.",
   "badges": [
     {
       "type": "origins:keybind",

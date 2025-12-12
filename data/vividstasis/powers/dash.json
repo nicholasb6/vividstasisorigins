@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Dash",
-  "description": "Dash a short distance in the direction you are looking, but get Weakness for 5 seconds.",
+  "description": "Dash in the direction you're looking, but gain Weakness I for 5 seconds.",
   "key": {
     "key": "key.origins.ternary_active"
   },

@@ -1,7 +1,7 @@
 {
     "type": "origins:multiple",
     "name": "Gun",
-    "description": "And for her neutral special... (right click when holding arrows)",
+    "description": "If holding an arrow, consume the arrow and fire it in the direction you're looking.",
     "fireball": {
         "condition": {
             "type": "origins:equipped_item",

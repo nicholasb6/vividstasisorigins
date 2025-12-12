@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Worldkeeper's Scythe",
-  "description": "Use your scythe to deal damage to those around you.",
+  "description": "Deal damage to entities in a 6 block radius.",
   "entity_action": {
     "type": "origins:and",
     "actions": [

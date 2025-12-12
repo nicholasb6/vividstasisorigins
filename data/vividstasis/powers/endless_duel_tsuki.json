@@ -2,7 +2,7 @@
 {
   "type": "apoli:multiple",
   "name": "An Endless Duel",
-"description": "You do extra damage to players using the Dawn origin.",
+"description": "Deal more damage to people using the Dawn origin.",
 "badges": [
     {
       "type": "origins:sprite",

@@ -2,7 +2,7 @@
 {
   "type": "apoli:multiple",
   "name": "An Endless Duel",
-"description": "You do extra damage to players using the Tsuki origin.",
+"description": "Deal more damage to people using the Tsuki origin.",
 "badges": [
     {
       "type": "origins:sprite",

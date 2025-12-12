@@ -1,6 +1,6 @@
 {
   "name": "Into Another Cycle",
-  "description": "Cycle reset and instantly heal back to full HP, but obtain Weakness 1 and reduce projectile damage for an extended amount of time.",
+  "description": "Full heal, but gain Weakness I for 10 seconds.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",
